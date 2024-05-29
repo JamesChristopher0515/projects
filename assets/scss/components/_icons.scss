@@ -1,0 +1,60 @@
+.bi {
+    width: 1rem;
+    height: 1rem;
+    &.bi-middle {
+        &:before {
+            vertical-align: middle;
+        }
+    }
+    &.bi-sub {
+        &:before {
+            vertical-align: sub;
+        }
+    }
+}
+.stats-icon {
+    width: 3rem;
+    height:3rem;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        color: #fff;
+        font-size: 1.7rem;
+    }
+    &.purple {
+        background-color: #6855A4;
+    }
+    &.blue {
+        background-color: #6366F1;
+    }
+    &.red {
+        background-color: #EF4444;
+    }
+    &.green {
+        background-color: #22C55E;
+    }
+    &.yellow {
+        background-color: #EAB308;
+    }
+    &.light-blue {
+        background-color: #3AC2CB;
+    }
+    &.pink {
+        background-color: #D946EF;
+    }
+    &.dark-green {
+        background-color: #64C3A1;
+    }
+    @media (max-width: 767px) {
+        float: left;
+        margin-bottom: .4rem;
+    }
+}
+
+.burger-btn {
+    display:none;
+}
